@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wraper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100vh;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left>a > img{
+    width: 500px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form > div > input, form > div > select , form > div > textarea {
+    width: 200px;
+    height: 25px;
+}
+
+form >div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: max-content;
+    margin-left: auto;
+}
+.buttons{
+    width: 100px;
+    padding: 10px;
+    gap:10px
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main_div{
+    width: 150px;
+    margin: 0 auto;
+}
+
+#submit_form{
+    padding: 20px;
+}
+
+
+a {
+    font-size: 20px;
+}
